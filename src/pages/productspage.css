@@ -1,0 +1,659 @@
+/*  General stuff
+  colors:
+gray behind logo: #929497;
+White: #FFFFFF;
+mint backgroundcolor: #fffef6;
+lemon backgroundcolor: #fdf9d1;
+caramel backgroundcolor: #ffeaba;
+blue button color: #CADBEA;
+
+  Fonts:
+        BC Alphapipe Regular
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+        BC Alphapipe Italic
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+        BC Alphapipe Bold
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 700;
+font-style: normal;*/
+
+.productsHeroContain{
+  width:100%;
+  text-align: center;
+  margin:auto;}
+
+.productHeroImg img{width:60%;}
+
+
+                        /*PRODUCTS SECTION*/
+.productsContain{width:100%;}
+
+                        /*VARIETY PACKS SECTION*/
+.varietyPacksContain{width:100%;}
+
+.vpRow{
+  width:100%;  
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:10px;}
+
+.vpCol{width:33%;}
+
+.vpImg img{width:90%;}
+
+.vpCardBlock{
+  width:50%;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:10px;}
+
+.vpCardTitle{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom:10px;}
+
+.vpCardText{
+  font-size:18px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom:10px;}
+
+                        /*SIGNLE PACK SECTION*/
+.singleFlavorPacks{width:100%;}
+
+.sfRow{
+  width:100%;  
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:10px;}
+
+.sfCol{width:33%;}
+
+.sfCard1{background-color:#fffef6;}
+.sfCard2{background-color: #ffeaba;}
+.sfCard3{background-color:#fdf9d1;}
+
+.sfImg img{width:90%;}
+
+.sfCardBlock{
+  width:50%;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:10px;}
+
+.sfCardTitle{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom:10px;}
+
+.sfCardText{
+  font-size:18px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom:10px;}
+
+                 /*MERCH SECTION*/
+
+.merchContain{width:100%;}
+
+.merchRow{
+  width:100%;  
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:10px;}
+
+.merchCol{width:33%;}
+
+.merchImg img{width:90%;}
+
+.merchCard1{
+  background-color:#fffef6;}
+
+.merchCard2{
+  background-color: #ffeaba;}
+
+.merchCard3{
+  background-color:#fdf9d1;}
+
+.merchCard4{
+  background-color:#fffef6;}
+
+.merchCard5{
+  background-color: #ffeaba;}
+
+.merchCard6{
+  background-color:#fdf9d1;}
+
+.merchCardBlock{
+  width:50%;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:10px;}
+
+.merchCardTitle{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom:10px;}
+
+.merchCardText{
+  font-size:18px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom:10px;}
+
+                  /*BUTTONS SECTION*/
+.addToCart{
+  font-size: 18px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 3px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px;}
+
+.addToCart:hover {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px #CADBEA;}
+
+.addToCart:active{
+  outline: none;
+  color: white;
+  background-color:#CADBEA;}
+
+.addToCart:focus{outline:none;}  
+
+            /*SIZE BUTTONS SECTION*/
+.sizeButton{
+  width:20%;
+  font-size: 18px;
+  background-color:#FFFFFF;
+  color:#CADBEA;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left:5px;}
+
+.sizeButton.selected{
+ color:#FFFFFF;
+ background-color:#CADBEA;}
+
+      /*VIEW CART & CLOSE CART SECTION*/
+.testContain{ 
+  padding-bottom:20px;
+  padding-top:20px; 
+  position:sticky;
+  top:0;
+  background-color:#929497;}
+
+.fixedContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;}
+
+.cartButtons{margin-left:10px;}
+
+.btnPrimary{
+  margin-right:10px;
+  font-size: 18px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 3px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px}
+
+.btnPrimary:hover{
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px #CADBEA;}
+
+.btnPrimary:active{
+  outline: none;
+  color: white;
+  background-color:#CADBEA;}
+
+.btnPrimary:focus{outline:none;} 
+
+.btnSecondary{
+  font-size: 18px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 3px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px}
+
+
+.btnSecondary:hover{
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px #CADBEA;}
+
+.btnSecondary:active{
+  outline: none;
+  color: white;
+  background-color:#CADBEA;}
+
+.btnSecondary:focus{outline:none;} 
+
+
+
+
+          /*MODAL CONTENT SECTION*/
+.modal{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);}
+
+.modalContent{
+  background:#FFFFFF;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+  max-width:400px;
+  width:100%;}
+
+.modalHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;}
+
+.modalTitle{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;}
+
+.modalBody{margin-bottom:10px;}
+
+.cartItem{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.name{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right:10px;}
+
+.price{
+  font-size:18px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+.totalPrice{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-right:10px;}
+
+.quantityControls {
+  display:flex;
+  align-items:center;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+  
+.quantityControls button{
+  margin-right:10px;
+  margin-left:10px;}
+
+.close{
+  font-size:20px;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 10px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px}
+
+.modalFooter{
+  display:flex;
+  justify-content:flex-end;}
+
+
+
+
+                  /*TABLET*/
+@media screen and (min-width:600px) and (max-width: 900px){
+
+.productHeroImg img{width:100%;}
+
+                        /*PRODUCTS SECTION*/
+.productsContain{width:100%;}
+
+          /*VARIETY PACKS SECTION*/
+.varietyPacksContain{width:100%;}
+
+.vpRow{flex-direction:column;}
+
+.vpCol{width:100%;}
+
+.vpImg img{
+  width:100%;
+  margin:auto;}
+
+.vpCardBlock{width:50%;}
+
+.vpCardTitle{font-size:18px;}
+
+.vpCardText{font-size:15px;}
+
+              /*SIGNLE PACK SECTION*/
+.singleFlavorPacks{width:100%;}
+
+.sfRow{flex-direction:column;}
+
+.sfCol{width:100%;}
+
+.sfImg img{width:90%;}
+
+.sfCardBlock{width:50%;}
+
+.sfCardTitle{font-size:18px;}
+
+.sfCardText{font-size:15px;}
+
+                 /*MERCH SECTION*/
+
+.merchContain{width:100%;}
+
+.merchRow{flex-direction:column;}
+
+.merchCol{width:100%;}
+
+.merchImg img{width:90%;}
+
+.merchCardBlock{width:50%;}
+
+.merchCardTitle{font-size:18px;}
+
+.merchCardText{font-size:15px;}
+
+                  /*BUTTONS SECTION*/
+.addToCart{font-size:15px;}
+
+            /*SIZE BUTTONS SECTION*/
+.sizeButton{
+  width:30%;
+  font-size:15px;}
+
+     /*VIEW CART & CLOSE CART SECTION*/
+
+.fixedContainer button{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;}
+
+.cartButtons button{margin-left:0px;}
+
+.btnPrimary{
+  margin-right:10px;
+  font-size: 15px;
+  border: 3px solid #CADBEA;
+  padding: 10px 30px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;}
+
+.btnSecondary{
+  font-size: 15px;
+  border: 3px solid #CADBEA;
+  padding: 10px 30px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px;
+  margin-bottom:10px;}
+
+          /*MODAL CONTENT SECTION*/
+
+.modalTitle{font-size:18px;}
+
+.modalBody{margin-bottom:10px;}
+
+.cartItem{
+  flex-direction:column;
+  line-height:20px;}
+
+.name{
+  font-size:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;}
+
+.price{
+  font-size:15px;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.totalPrice{
+  font-size:18px;
+  padding-top:10px;}
+  
+.quantityControls button{
+  font-size:18px;
+  margin-right:10px;
+  margin-left:10px;
+  padding:15px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;}
+
+.close{
+  font-size:18px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 10px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px}
+
+}
+
+
+
+
+
+
+                   /*MOBILE*/
+ @media screen and (max-width:/*570px*/574px){
+.productHeroImg img{width:100%;}
+
+        /*PRODUCTS SECTION*/
+.productsContain{width:100%;}
+
+      /*VARIETY PACKS SECTION*/
+.varietyPacksContain{width:100%;}
+
+.vpRow{flex-direction:column;}
+
+.vpCol{width:100%;}
+
+.vpImg img{
+  width:100%;
+  margin:auto;}
+
+.vpCardBlock{width:50%;}
+
+.vpCardTitle{font-size:18px;}
+
+.vpCardText{font-size:15px;}
+
+          /*SIGNLE PACK SECTION*/
+.singleFlavorPacks{width:100%;}
+
+.sfRow{flex-direction:column;}
+
+.sfCol{width:100%;}
+
+.sfImg img{width:90%;}
+
+.sfCardBlock{width:50%;}
+
+.sfCardTitle{font-size:18px;}
+
+.sfCardText{font-size:15px;}
+
+        /*MERCH SECTION*/
+.merchContain{width:100%;}
+
+.merchRow{flex-direction:column;}
+
+.merchCol{width:100%;}
+
+.merchImg img{width:90%;}
+
+.merchCardBlock{width:50%;}
+
+.merchCardTitle{font-size:18px;}
+
+.merchCardText{font-size:15px;}
+
+        /*BUTTONS SECTION*/
+.addToCart{font-size:15px;}
+
+        /*SIZE BUTTONS SECTION*/
+.sizeButton{
+  width:30%;
+  font-size:15px;}
+
+      /*VIEW CART & CLOSE CART SECTION*/
+
+.fixedContainer button{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;}
+
+.cartButtons button{margin-left:0px;}
+
+.btnPrimary{
+  margin-right:10px;
+  font-size: 15px;
+  border: 3px solid #CADBEA;
+  padding: 10px 30px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;}
+
+.btnSecondary{
+  font-size: 15px;
+  border: 3px solid #CADBEA;
+  padding: 10px 30px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease,  box-shadow 0.1s ease;
+  margin-top:10px;
+  margin-bottom:10px;}
+
+        /*MODAL CONTENT SECTION*/
+
+.modalTitle{font-size:18px;}
+
+.modalBody{margin-bottom:10px;}
+
+.cartItem{
+  flex-direction:column;
+  line-height:20px;}
+
+.name{
+  font-size:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;}
+
+.price{
+  font-size:15px;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.totalPrice{
+  font-size:18px;
+  padding-top:10px;}
+
+.quantityControls button{
+  font-size:18px;
+  margin-right:10px;
+  margin-left:10px;
+  padding:15px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;}
+
+.close{
+  font-size:18px;
+  background-color:#FFFFFF;
+  color: #CADBEA;
+  border: 3px solid #CADBEA;
+  padding: 6px 10px;
+  box-shadow: -3px 4px 0px 0px #CADBEA;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top:10px}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

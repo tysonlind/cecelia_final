@@ -1,0 +1,265 @@
+/*  General stuff
+  colors:
+gray behind logo: #929497;
+White: #FFFFFF;
+mint backgroundcolor: #fffef6;
+lemon backgroundcolor: #fdf9d1;
+caramel backgroundcolor: #ffeaba;
+blue button color: #CADBEA;
+
+  Fonts:
+        BC Alphapipe Regular
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+        BC Alphapipe Italic
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+        BC Alphapipe Bold
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+.aboutHerocontain{
+  width:100%;
+  margin:auto;
+  text-align:center;}
+
+.heroAboutImg img{ width:60%;}
+
+.aboutIntroText{
+  font-family:"bc-alphapipe", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+        /*Company info section*/
+.aboutCompanyContain{
+  width:100%;
+  padding-top:10px;}
+
+.companyFlex{
+  width:90%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  margin:auto;
+  background-color:#CADBEA;}
+
+.companyImg img{width:55%;}
+
+.compInfoTextContain{
+  width:55%;
+  margin-right:56px;}
+
+.storyContain{
+  padding-top:10px;
+  padding-bottom:15px;}
+
+.missionContain{
+  padding-top:10px;
+  padding-bottom:15px;}
+
+.connectContain{  
+  padding-top:10px;
+  padding-bottom:15px;}
+
+.title{
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:20px;}
+
+.mainText{
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18px;
+  line-height:25px;}
+
+.connectSocails{
+  display:flex;
+  flex-direction:row;
+  background-color:#929497;
+  margin:auto;
+  text-align:center;}
+
+.connectSocails img{width:50%;}
+
+.aInstagram a:hover{opacity:.5;transition-timing-function: ease-in;}
+
+.aEmail a:hover{opacity:.5;transition-timing-function: ease-in;}
+            /*Values section*/
+.valuesContain{
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.valuesFlex{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-content:center;}
+
+.valueOneInfo{
+  width:33%;
+  background-color:#fffef6;
+  padding-left:10px;
+  padding-right:10px;}
+
+.valueTwoInfo{
+  width:33%;
+  background-color:#fdf9d1;
+  padding-left:10px;
+  padding-right:10px;}
+
+.valueThreeInfo{
+  width:33%;
+  background-color:#ffeaba;
+  padding-left:10px;
+  padding-right:10px;}
+
+.valueTitle{
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.valueText{
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18px;
+  line-height:25px;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+              /*TABLET*/
+@media screen and (min-width:600px) and (max-width: 900px) {
+
+.heroAboutImg img{ width:100%;}
+
+        /*Company info section*/
+.aboutCompanyContain{
+  width:100%;
+  padding-top:10px;
+  margin:auto;}
+
+.companyFlex{
+  width:90%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:auto;
+  background-color:#CADBEA;}
+
+.companyImg img{
+  width:90%;
+  margin:auto;
+  text-align:center;}
+
+.compInfoTextContain{
+  width:50%;
+  margin-right:0px;
+  text-align:left;}
+
+.title{font-size:18px;}
+
+.mainText{font-size:15px;}
+
+.connectSocails{
+  background-color:#929497;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  text-align:center;}
+
+.connectSocails img{width:50%;}
+
+            /*Values section*/
+.valuesFlex{
+  flex-direction:column;
+  margin:auto;}
+
+.valueOneInfo{width:95%;}
+
+.valueTwoInfo{width:95%;}
+
+.valueThreeInfo{width:95%;}
+
+.valueTitle{font-size:18px;}
+
+.valueText{font-size:15px;}
+}
+
+                  /*MOBILE*/
+ @media screen and (max-width:/*570px*/574px){
+
+  .heroAboutImg img{ width:100%;}
+
+  /*Company info section*/
+.aboutCompanyContain{
+  width:100%;
+  padding-top:10px;
+  margin:auto;}
+
+.companyFlex{
+  width:90%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:auto;
+  background-color:#CADBEA;}
+
+.companyImg img{
+  width:90%;
+  margin:auto;
+  text-align:center;}
+
+.compInfoTextContain{
+  width:50%;
+  margin-right:0px;
+  text-align:left;}
+
+.title{font-size:18px;}
+
+.mainText{font-size:15px;}
+
+.connectSocails{
+  background-color:#929497;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  text-align:center;}
+
+.connectSocails img{width:50%;}
+
+      /*Values section*/
+.valuesFlex{
+  flex-direction:column;
+  margin:auto;
+  padding-left:15px;}
+
+.valueOneInfo{width:95%;}
+
+.valueTwoInfo{width:95%;}
+
+.valueThreeInfo{width:95%;}
+
+.valueTitle{font-size:18px;}
+
+.valueText{font-size:15px;}
+
+}

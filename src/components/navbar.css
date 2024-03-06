@@ -1,0 +1,163 @@
+/*  General stuff
+  colors:
+gray behind logo: #929497;
+White: #FFFFFF;
+
+  Fonts:
+        BC Alphapipe Regular
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+        BC Alphapipe Italic
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+        BC Alphapipe Bold
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+*/
+a {text-decoration:none;}
+
+.navContain{
+  width:100%;
+  background-color:#929497;}
+
+.navFlex{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-content: center;}
+
+.navLogo,img{
+  width:30%;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.navLogo a:hover{
+  opacity:.5;transition-timing-function: ease-in;}
+
+.textLinksContain{  
+  display:flex;
+  align-items:center;
+  gap:20px;}
+
+.textLinksContain a{
+  color:#FFFFFF;
+  font-family:"bc-alphapipe", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:25px;}
+
+.textLinksContain a:hover{
+  opacity:.5;transition-timing-function: ease-in;}
+    
+.navContainMobile{display: none;}
+
+        
+@media screen and (max-width: 900px)
+{
+.navContainMobile{display:block;}
+
+.navContain{display:none;}
+
+.navContainMobile header {
+  background-color: #929497;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;}
+
+.navContainMobile header img {
+  width:30%;}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;}
+
+.menuButton div {
+    width:30px; 
+    height:3px;
+    background-color:#FFFFFF;}
+
+.navLogo,img{
+  width:60%;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+.drawer{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#FFFFFF;}
+
+.drawer.open {display:block;}
+
+.drawer ul {
+  list-style: none;
+  padding: 0;}
+
+.drawer li {
+  margin-bottom: 10px;
+  padding-top:10px;
+  padding-left:10px;}
+
+.drawer a {
+  text-decoration: none;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;}
+
+.closeButton{
+  cursor:pointer;
+  font-size:25px;
+  color:black;
+  float:right;
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right:10px;
+  padding-top:10px;}
+
+}
+
+
+                /*MOBILE*/
+@media screen and (max-width:/*570px*/574px){
+.navLogo,img{
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
